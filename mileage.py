@@ -13,9 +13,10 @@ else:
     distance = input("How many Miles have you run this week?: ")
     unit = "MIs"
     converted_unit = "KMs"
-    result = round(float(distance) / ONE_MILE, 2)
+result = round(float(distance) / ONE_MILE, 2)
 
 
 print()
-print(f"You run {distance}{unit} this week which is equal to {result}{converted_unit}")
+print(
+    f"You run {distance}{unit} this week which is equal to {result}{converted_unit}")
 print()
